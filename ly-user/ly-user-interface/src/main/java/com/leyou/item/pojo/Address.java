@@ -27,6 +27,8 @@ public class Address {
 
     private Long userId;                    // 用户id
 
+    private int age;
+
     @Length(min = 4,max = 30,message = "用户名只能在4~30位之间")
     private String name;                    // 用户名字
 
